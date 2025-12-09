@@ -1,0 +1,78 @@
+{
+	"character-name": "Captain Lone Starr",
+	"character-type": "Human Space Bum/Prince",
+	"attributes": [
+		{
+			"attribute-name": "DEX",
+			"attribute-value": "3D",
+			"skills": [
+				{
+					"skill-name": "Blaster",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Brawling Parry",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Dodge",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Lightsaber",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Ricochet Shots",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Running",
+					"skill-value": "4D+1"
+				}
+			]
+		},
+		{
+			"attribute-name": "KNO",
+			"attribute-value": "2D+2",
+			"skills": [
+				{
+					"skill-name": "Alien Species: Mawgs",
+					"skill-value": "4D+2"
+				},
+				{
+					"skill-name": "Intimidation",
+					"skill-value": "3D+1"
+				},
+				{
+					"skill-name": "Streetwise",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Pizza the Hut's Organization",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Survival",
+					"skill-value": "5D+1"
+				},
+				{
+					"skill-name": "Value",
+					"skill-value": "4D+2"
+				},
+				{
+					"skill-name": "Willpower",
+					"skill-value": "6D"
+				}
+			]
+		}		
+	],
+	"equipment": [
+		"Jacket",
+		"Hat",
+		"Clothes",
+		"Eagle Five",
+		"Spaceball",
+		"One Blaster Rifle"
+	]
+}

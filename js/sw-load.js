@@ -31,6 +31,8 @@ sw.load = {
 				}
 			}
 			console.log(sw.character);
+			
+			sw.character.render();
 		});
 	}
 };

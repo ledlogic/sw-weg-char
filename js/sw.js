@@ -6,7 +6,6 @@ $(document).ready(function() {
 
 var sw = {
 	init: function() {
-		
 	},
 	log: function(s) {
 		if (typeof (window.console) != "undefined") {

@@ -1,6 +1,11 @@
 {
 	"character-name": "Captain Lone Starr",
 	"character-type": "Human Space Bum/Prince",
+	"character-height": "6'2\"",
+	"character-weight": "185 lbs",
+	"character-sex": "Male",
+	"character-age": "32",
+	"character-description": "Brown hair, blue eyes, wearing a leather jacket, plain shirt, and khakis",
 	"attributes": [
 		{
 			"attribute-name": "DEX",

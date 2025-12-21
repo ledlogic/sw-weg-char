@@ -11,5 +11,10 @@ var sw = {
 		if (typeof (window.console) != "undefined") {
 			console.log(s);
 		}
+	},
+	logObj: function(k, s) {
+		if (typeof (window.console) != "undefined") {
+			console.log([k,s]);
+		}
 	}	
 };

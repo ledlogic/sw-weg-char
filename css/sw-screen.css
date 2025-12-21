@@ -1,6 +1,12 @@
+/* base */
+
 * {
 	color: #163640;
 	font-family: 'ITC Cheltenham Book', 'Verdana', serif;	
+	font-size: 16px;
+}
+div {
+	color: #445e66;
 }
 label {
 	font-weight: 600;
@@ -20,38 +26,117 @@ footer {
 	width: 550px;
 }
 footer a {
+	font-family: "MachineFont Regular";
 	font-style: italic;
 }
-div.character-stat {
+
+/* character */
+
+div.sw-stat {
 	position: absolute;	
 }
-div#character-type {
+div#sw-character-type {
 	left: 260px;
 	top: 110px;
 }
-div#character-name {
+div#sw-character-name {
 	left: 220px;
 	top: 136px;
 }
-div#character-height {
+div#sw-character-height {
 	left: 180px;
 	top: 192px;
 }
-div#character-weight {
+div#sw-character-weight {
 	left: 340px;
 	top: 192px;
 }
-div#character-sex {
+div#sw-character-sex {
 	left: 498px;
 	top: 192px;
 }
-div#character-age {
+div#sw-character-age {
 	left: 680px;
 	top: 192px;
 }
-div#character-description {
+div#sw-character-description {
 	left: 224px;
 	top: 222px;
 	width: 520px;
 	font-size: 12px;
+}
+
+/* attributes */
+
+div#sw-attribute-cover-dex {
+	position: absolute;
+	background-color: #fff;
+	/* border: 1px solid red; */
+	left: 84px;
+	top: 312px;
+	height: 176px;
+	width: 164px;
+}
+div#sw-attribute-cover-kno {
+	position: absolute;
+	background-color: #fff;
+	/* border: 1px solid red; */
+	left: 84px;
+	top: 498px;
+	height: 176px;
+	width: 164px;
+}
+
+div.sw-attribute.sw-attribute-base {
+	font-weight: 1000;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+div.sw-attribute {
+	display: block;
+	position: absolute;
+	font-size: 12px;
+}
+div.sw-attribute-name {
+	/* border: 1px solid purple; */
+	left: 4px;
+	text-align: left;
+	top: 0px;
+	width: 100px;
+}
+div.sw-attribute-value {
+	/* border: 1px solid pink; */
+	border-bottom: 1px solid black;
+	left: 110px;
+	text-align: center;
+	top: 0px;
+	width: 50px;
+}
+
+/* sw-skill */
+div.sw-skill {
+	font-size: 14px;
+	margin-top: -4px;
+}
+div.sw-skill-cover {
+	/* border: 1px solid orange; */
+}
+div.sw-skill-name {
+	display: inline-block;
+	/* border: 1px solid purple; */
+	margin-left: 4px;
+	text-align: left;
+	width: 100px;
+}
+div.sw-skill-name-long {
+	font-size: 8px;
+}
+div.sw-skill-value {
+	/* border: 1px solid pink; */
+	margin-left: 110px;
+	margin-top: -18px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	top: 0px;
+	width: 50px;
 }

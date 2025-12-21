@@ -187,5 +187,33 @@
 		"Eagle Five",
 		"Spaceball",
 		"One Blaster Rifle"
+	],
+	"character-move": 11,
+	"character-points": 19,
+	"character-up-side-points": 6,
+	"schwartz": [
+		{
+			"schwartz-name": "control",
+			"schwartz-value": "4D"
+		},
+		{
+			"schwartz-name": "sense",
+			"schwartz-value": "5D"
+		},
+		{
+			"schwartz-name": "alter",
+			"schwartz-value": "3D"
+		}
+	],
+	"schwartz-skills": [
+		"Concentration(C)",
+		"Emptiness(C)",
+		"Enhance Attribute(C)",
+		"Combat Sense(S)",
+		"Receptive Telepathy(S)",
+		"Telekinesis(A)",
+		"Lightsaber Combat(CS)",
+		"Projective Telepathy(CS)",
+		"Enhanced Coordination(CSA)"
 	]
 }

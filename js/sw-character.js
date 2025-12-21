@@ -8,8 +8,8 @@ sw.character = {
 	
 	render: function() {
 		var s = sw.character.stats;
+		var $c = $(".container");
 		for (var ks in s) {
-			var $c = $(".container");
 			var h = "<div id=\"sw-" + ks + "\" class=\"sw-stat\">" + s[ks] + "</div>";
 			$c.append(h);
 		}
@@ -63,10 +63,19 @@ sw.character = {
 		var e = sw.character.equipment;
 		var h = "<div id=\"sw-equipment-cover\" class=\"sw-equipment-cover\">";
 		for (var ke in e) {
-			var $c = $(".container");
 			h += "<div id=\"sw-" + ke + "\" class=\"sw-equipment\">" + e[ke] + "</div>";
 		}
 		h += "</div>";
 		$c.append(h);
+
+		var w = sw.character.schwartz;
+		for (var kw in w) {
+			var schwartz = w[kw]; 
+			var schwartzName = schwartz["schwartz-name"];
+			var schwartzValue = schwartz["schwartz-value"];
+			h += "<div id=\"sw-schwartz-" + schwartzName + "\" class=\"sw-schwartz\">" + schwartzValue + "</div>";
+		}
+		$c.append(h);
+
 	}
 };

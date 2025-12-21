@@ -1,136 +1,139 @@
 {
-  "character-name": "Barfolomew \"Barf\"",
-  "character-type": "Mawg First Mate",
-  "character-height": "",
-  "character-weight": "",
-  "character-sex": "",
-  "character-age": "",
-  "character-description": "",
-  "attributes": [
-    {
-      "attribute-name": "DEX",
-      "attribute-value": "2D+2",
-      "skills": [
-        {
-          "skill-name": "Blaster",
-          "skill-value": "6D+1"
-        },
-        {
-          "skill-name": "Dodge",
-          "skill-value": "5D+2"
-        },
-        {
-          "skill-name": "Ricochet Shots",
-          "skill-value": "8D"
-        },
-        {
-          "skill-name": "Running",
-          "skill-value": "5D"
-        }
-      ]
-    },
-    {
-      "attribute-name": "KNO",
-      "attribute-value": "2D+2",
-      "skills": [
-        {
-          "skill-name": "Survival",
-          "skill-value": "6D"
-        },
-        {
-          "skill-name": "Willpower",
-          "skill-value": "4D+1"
-        }
-      ]
-    },
-    {
-      "attribute-name": "MEC",
-      "attribute-value": "3D",
-      "skills": [
-        {
-          "skill-name": "Astrogation",
-          "skill-value": "4D+1"
-        },
-        {
-          "skill-name": "Communications",
-          "skill-value": "5D"
-        },
-        {
-          "skill-name": "Sensors",
-          "skill-value": "6D"
-        },
-        {
-          "skill-name": "Transports",
-          "skill-value": "4D"
-        },
-        {
-          "skill-name": "Eagle Five",
-          "skill-value": "6D+1"
-        },
-        {
-          "skill-name": "Starship Gunnery",
-          "skill-value": "5D"
-        }
-      ]
-    },
-    {
-      "attribute-name": "PER",
-      "attribute-value": "3D+1",
-      "skills": [
-        {
-          "skill-name": "Bargain",
-          "skill-value": "5D+1"
-        },
-        {
-          "skill-name": "Con",
-          "skill-value": "4D"
-        },
-        {
-          "skill-name": "Hide",
-          "skill-value": "4D+1"
-        },
-        {
-          "skill-name": "Persuasion",
-          "skill-value": "6D+1"
-        },
-        {
-          "skill-name": "Sneak",
-          "skill-value": "5D+2"
-        }
-      ]
-    },
-    {
-      "attribute-name": "STR",
-      "attribute-value": "3D+1",
-      "skills": [
-        {
-          "skill-name": "Lifting",
-          "skill-value": "5D+1"
-        },
-        {
-          "skill-name": "Stamina",
-          "skill-value": "4D+2"
-        },
-        {
-          "skill-name": "Swimming",
-          "skill-value": "6D"
-        }
-      ]
-    },
-    {
-      "attribute-name": "TEC",
-      "attribute-value": "3D",
-      "skills": [
-        {
-          "skill-name": "Space Transports Repair",
-          "skill-value": "6D"
-        }
-      ]
-    }
-  ],
-  "equipment": [
-  	"Jumpsuit", 
-  	"Snacks", 
-  	"Loud Music"
-  ]
+	"character-name": "Barfolomew \"Barf\"",
+	"character-type": "Mawg First Mate",
+	"character-height": "",
+	"character-weight": "",
+	"character-sex": "",
+	"character-age": "",
+	"character-description": "",
+	"attributes": [
+		{
+			"attribute-name": "DEX",
+			"attribute-value": "2D+2",
+			"skills": [
+				{
+					"skill-name": "Blaster",
+					"skill-value": "6D+1"
+				},
+				{
+					"skill-name": "Dodge",
+					"skill-value": "5D+2"
+				},
+				{
+					"skill-name": "Ricochet Shots",
+					"skill-value": "8D"
+				},
+				{
+					"skill-name": "Running",
+					"skill-value": "5D"
+				}
+			]
+		},
+		{
+			"attribute-name": "KNO",
+			"attribute-value": "2D+2",
+			"skills": [
+				{
+					"skill-name": "Survival",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Willpower",
+					"skill-value": "4D+1"
+				}
+			]
+		},
+		{
+			"attribute-name": "MEC",
+			"attribute-value": "3D",
+			"skills": [
+				{
+					"skill-name": "Astrogation",
+					"skill-value": "4D+1"
+				},
+				{
+					"skill-name": "Communications",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Sensors",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Transports",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Eagle Five",
+					"skill-value": "6D+1"
+				},
+				{
+					"skill-name": "Starship Gunnery",
+					"skill-value": "5D"
+				}
+			]
+		},
+		{
+			"attribute-name": "PER",
+			"attribute-value": "3D+1",
+			"skills": [
+				{
+					"skill-name": "Bargain",
+					"skill-value": "5D+1"
+				},
+				{
+					"skill-name": "Con",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Hide",
+					"skill-value": "4D+1"
+				},
+				{
+					"skill-name": "Persuasion",
+					"skill-value": "6D+1"
+				},
+				{
+					"skill-name": "Sneak",
+					"skill-value": "5D+2"
+				}
+			]
+		},
+		{
+			"attribute-name": "STR",
+			"attribute-value": "3D+1",
+			"skills": [
+				{
+					"skill-name": "Lifting",
+					"skill-value": "5D+1"
+				},
+				{
+					"skill-name": "Stamina",
+					"skill-value": "4D+2"
+				},
+				{
+					"skill-name": "Swimming",
+					"skill-value": "6D"
+				}
+			]
+		},
+		{
+			"attribute-name": "TEC",
+			"attribute-value": "3D",
+			"skills": [
+				{
+					"skill-name": "Space Transports Repair",
+					"skill-value": "6D"
+				}
+			]
+		}
+	],
+	"equipment": [
+		"Jumpsuit",
+		"Snacks",
+		"Loud Music"
+	],
+	"character-move": 12,
+	"character-points": 13,
+	"character-up-side-points": 2
 }

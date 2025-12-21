@@ -65,6 +65,26 @@ div#sw-character-description {
 	font-size: 12px;
 	line-height: 26px;
 }
+div#sw-character-move {
+	display: none;	
+}
+div#sw-character-points {
+	display: none;	
+}
+div#sw-character-up-side-points,
+div#sw-character-down-side-points {
+	position: absolute;
+	top: 886px;
+	width: 24px;
+	font-size: 20px;
+	text-align: center;
+}
+div#sw-character-up-side-points {
+	left: 116px;
+}
+div#sw-character-down-side-points {
+	left: 200px;
+}
 
 /* attributes */
 
@@ -186,4 +206,30 @@ div#sw-equipment-cover {
 div.sw-equipment {
 	font-size: 14px;
 	margin-top: 2px;
+}
+
+/* schwartz */
+
+div#sw-schwartz-control {
+	position: absolute;
+	width: 50px;
+	left: 352px;
+	top: 806px;
+	font-size: 14px;
+}
+
+div#sw-schwartz-sense {
+	position: absolute;
+	width: 50px;
+	left: 352px;
+	top: 826px;
+	font-size: 14px;
+}
+
+div#sw-schwartz-alter {
+	position: absolute;
+	width: 50px;
+	left: 352px;
+	top: 846px;
+	font-size: 14px;
 }

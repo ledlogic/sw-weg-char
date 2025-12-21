@@ -11,27 +11,33 @@ sw.load = {
 			return;
 		}
 	},
-	
+
 	loadCharacter: function(cn) {
 		$.getJSON('data/' + cn + '.json', function(d) {
-	    	for (k in d) {
+			for (var k in d) {
 				switch (true) {
 					case (k == 'attributes'):
-						for (k2 in d[k]) {
+						for (var k2 in d[k]) {
 							sw.character.attributes[k2] = d[k][k2];
 						}
 						break;
 					case (k == 'equipment'):
-						for (k2 in d[k]) {
+						for (var k2 in d[k]) {
 							sw.character.equipment[k2] = d[k][k2];
 						}
 						break;
-					default:
+					case (k == 'schwartz'):
+						sw.character.schwartz = d[k];
+						break;
+					case (k.indexOf("character-") === 0):
 						sw.character.stats[k] = d[k];
+						break;
+					default:
+						break;
 				}
 			}
 			console.log(sw.character);
-			
+
 			sw.character.render();
 		});
 	}

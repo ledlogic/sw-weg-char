@@ -21,13 +21,12 @@ textarea, div[contenteditable=true] {
 }
 footer {
 	position: absolute;
-	left: 200px;	
+	left: 86px;	
 	top: 1028px;	
 	width: 550px;
 }
 footer a {
-	font-family: "MachineFont Regular";
-	font-style: italic;
+	font-family: "Machine Font Regular";
 }
 
 /* character */
@@ -68,23 +67,47 @@ div#sw-character-description {
 
 /* attributes */
 
-div#sw-attribute-cover-dex {
+div.sw-attribute-cover {
 	position: absolute;
 	background-color: #fff;
 	/* border: 1px solid red; */
+	width: 164px;
+}
+
+div#sw-attribute-cover-dex {
 	left: 84px;
 	top: 312px;
 	height: 176px;
-	width: 164px;
 }
+
 div#sw-attribute-cover-kno {
-	position: absolute;
-	background-color: #fff;
-	/* border: 1px solid red; */
 	left: 84px;
 	top: 498px;
-	height: 176px;
-	width: 164px;
+	height: 198px;
+}
+
+div#sw-attribute-cover-mec {
+	left: 84px;
+	top: 704px;
+	height: 156px;
+}
+
+div#sw-attribute-cover-per {
+	left: 260px;
+	top: 312px;
+	height: 154px;
+}
+
+div#sw-attribute-cover-str {
+	left: 260px;
+	top: 478px;
+	height: 134px;
+}
+
+div#sw-attribute-cover-tec {
+	left: 260px;
+	top: 624px;
+	height: 178px;
 }
 
 div.sw-attribute.sw-attribute-base {
@@ -127,6 +150,9 @@ div.sw-skill-name {
 	margin-left: 4px;
 	text-align: left;
 	width: 100px;
+}
+div.sw-skill-name-med {
+	font-size: 10px;
 }
 div.sw-skill-name-long {
 	font-size: 8px;

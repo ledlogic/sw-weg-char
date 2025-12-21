@@ -70,7 +70,115 @@
 					"skill-value": "6D"
 				}
 			]
-		}		
+		},
+		{
+			"attribute-name": "MEC",
+			"attribute-value": "4D",
+			"skills": [
+				{
+					"skill-name": "Astrogation",
+					"skill-value": "6D+2"
+				},
+				{
+					"skill-name": "Sensors",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Space Transports",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Eagle Five",
+					"skill-value": "8D+2"
+				},
+				{
+					"skill-name": "Starship gunnery",
+					"skill-value": "6D"
+				},
+				{
+					"skill-name": "Jamming",
+					"skill-value": "6D+2"
+				}
+			]
+		},
+		{
+			"attribute-name": "PER",
+			"attribute-value": "2D+1",
+			"skills": [
+				{
+					"skill-name": "Bargain",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Command",
+					"skill-value": "3D+1"
+				},
+				{
+					"skill-name": "Con",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Hide",
+					"skill-value": "3D+2"
+				},
+				{
+					"skill-name": "Persuasion",
+					"skill-value": "4D+1"
+				},
+				{
+					"skill-name": "Search",
+					"skill-value": "3D"
+				},
+				{
+					"skill-name": "Sneak",
+					"skill-value": "3D+2"
+				}
+			]
+		},
+		{
+			"attribute-name": "STR",
+			"attribute-value": "2D+2",
+			"skills": [
+				{
+					"skill-name": "Brawling",
+					"skill-value": "4D+2"
+				},
+				{
+					"skill-name": "Lifting",
+					"skill-value": "4D+1"
+				},
+				{
+					"skill-name": "Stamina",
+					"skill-value": "5D"
+				},
+				{
+					"skill-name": "Vulcan Neck Pinch",
+					"skill-value": "4D"
+				}
+			]
+		},
+		{
+			"attribute-name": "TEC",
+			"attribute-value": "3D+1",
+			"skills": [
+				{
+					"skill-name": "Space Transports Repair",
+					"skill-value": "6D+1"
+				},
+				{
+					"skill-name": "Eagle Five",
+					"skill-value": "8D+1"
+				},
+				{
+					"skill-name": "Security",
+					"skill-value": "4D"
+				},
+				{
+					"skill-name": "Starship Weapon Repair",
+					"skill-value": "5D+1"
+				}
+			]
+		}
 	],
 	"equipment": [
 		"Jacket",

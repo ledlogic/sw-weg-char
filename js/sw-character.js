@@ -22,7 +22,7 @@ sw.character = {
 			var attributeName = va["attribute-name"];
 			var attributeValue = va["attribute-value"];
 
-			var h = "<div id=\"sw-attribute-cover-" + attributeName.toLowerCase() + "\">";
+			var h = "<div id=\"sw-attribute-cover-" + attributeName.toLowerCase() + "\" class=\"sw-attribute-cover\">";
 
 			h += "<div class=\"sw-attribute sw-attribute-name sw-attribute-base\">" + sw.attributes[attributeName] + "</div>";
 			h += "<div class=\"sw-attribute sw-attribute-value sw-attribute-base\">" + attributeValue + "</div>";
@@ -37,10 +37,18 @@ sw.character = {
 				var skillName = skill["skill-name"];
 				var skillValue = skill["skill-value"];
 				
-				var cls = "div.sw-skill-cover";
+				var cls = "";
+				switch (true) {
+					case (skillName.length > 20):
+						cls += " sw-skill-name-long";
+						break;
+					case (skillName.length > 14):
+						cls = " sw-skill-name-med";
+						break;
+				}
 
 				h += "<div class=\"sw-skill-cover\" style=\"margin-top:" + mt + "px;\">";
-				h += "<div class=\"sw-skill sw-skill-name" + (skillName.length > 14 ? " sw-skill-name-long" : "") + "\">" + skillName + "</div>";
+				h += "<div class=\"sw-skill sw-skill-name" + cls + "\">" + skillName + "</div>";
 				h += "<div class=\"sw-skill sw-skill-value\">" + skillValue + "</div>";
 				h += "</div>";
 

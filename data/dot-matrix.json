@@ -1,0 +1,80 @@
+{
+  "character-name": "Dot Matrix",
+  "character-type": "DM-1 Droid Maid",
+  "character-height": "",
+  "character-weight": "",
+  "character-sex": "",
+  "character-age": "",
+  "character-description": "",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Dodge",
+          "skill-value": "4D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Scholar: Druish Customs",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Intimidation",
+          "skill-value": "5D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "1D",
+      "skills": []
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Search",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Persuasion",
+          "skill-value": "5D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "1D",
+      "skills": []
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "2D",
+      "skills": [
+        {
+          "skill-name": "Droid Repair",
+          "skill-value": "3D"
+        }
+      ]
+    }
+  ],
+  "equipment": [
+  	"Humanoid Construction",
+  	"Wheeled Feet",
+  	"Vocabulator",
+  	"Virgin Alarm",
+  	"Super Vision"
+  ]
+}

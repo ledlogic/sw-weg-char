@@ -59,5 +59,14 @@ sw.character = {
 			h += "</div>";
 			$c.append(h);
 		}
+		
+		var e = sw.character.equipment;
+		var h = "<div id=\"sw-equipment-cover\" class=\"sw-equipment-cover\">";
+		for (var ke in e) {
+			var $c = $(".container");
+			h += "<div id=\"sw-" + ke + "\" class=\"sw-equipment\">" + e[ke] + "</div>";
+		}
+		h += "</div>";
+		$c.append(h);
 	}
 };

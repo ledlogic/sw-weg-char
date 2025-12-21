@@ -1,0 +1,73 @@
+{
+  "character-name": "President Scroob",
+  "character-type": "President of planet Spaceball",
+  "character-height": "",
+  "character-weight": "",
+  "character-sex": "",
+  "character-age": "",
+  "character-description": "",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Dodge",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Bureaucracy: Spaceballs",
+          "skill-value": "10D"
+        },
+        {
+          "skill-name": "Value",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "3D",
+      "skills": []
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Command",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Con",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Lying",
+          "skill-value": "10D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "3D",
+      "skills": []
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "3D",
+      "skills": []
+    }
+  ],
+  "equipment": []
+}

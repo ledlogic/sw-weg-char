@@ -1,0 +1,134 @@
+{
+  "character-name": "Yogurt",
+  "character-type": "Schwartz Master",
+  "character-height": "",
+  "character-weight": "",
+  "character-sex": "",
+  "character-age": "",
+  "character-description": "",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Blaster",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Firearms: Flamethrower",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Lightsaber",
+          "skill-value": "10D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "5D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "5D",
+      "skills": [
+        {
+          "skill-name": "Alien Species",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Business",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Cultures",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Intimidation",
+          "skill-value": "10D"
+        },
+        {
+          "skill-name": "Languages",
+          "skill-value": "12D"
+        },
+        {
+          "skill-name": "Merchandising",
+          "skill-value": "10D"
+        },
+        {
+          "skill-name": "Scholar: Schwartz Lore",
+          "skill-value": "9D"
+        },
+        {
+          "skill-name": "Value",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Willpower",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "2D",
+      "skills": []
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Bargain",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Command",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Con",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Hide",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Persuasion",
+          "skill-value": "8D"
+        },
+        {
+          "skill-name": "Search",
+          "skill-value": "5D+1"
+        },
+        {
+          "skill-name": "Sneak",
+          "skill-value": "6D+2"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "2D",
+      "skills": []
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "2D",
+      "skills": [
+        {
+          "skill-name": "First Aid",
+          "skill-value": "6D"
+        }
+      ]
+    }
+  ],
+  "equipment": [
+	"Robes",
+	"Cave/Store",
+	"Lots of Spaceballs: The Movie Merchandise"
+  ]
+}

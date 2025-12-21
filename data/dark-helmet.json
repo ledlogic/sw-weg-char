@@ -1,0 +1,108 @@
+{
+  "character-name": "Dark Helmet",
+  "character-type": "Evil Schwartz User",
+  "character-height": "5'8\"",
+  "character-weight": "155 lbs",
+  "character-sex": "Male",
+  "character-age": "34 Years",
+  "character-description": "A comically short villain in a massive, cartoonish black helmet featuring a hinged, vented faceplate with tinted lenses, a metallic shower drain for a mouth, and a powerful \"Schwartz\" power to manipulate reality, all while being a petulant, miniature commander.",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "3D+1",
+      "skills": [
+        {
+          "skill-name": "Blaster",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Dodge",
+          "skill-value": "4D+1"
+        },
+        {
+          "skill-name": "Lightsaber",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "8D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "5D",
+      "skills": [
+        {
+          "skill-name": "Bureaucracy: Spaceballs",
+          "skill-value": "8D"
+        },
+        {
+          "skill-name": "Intimidation",
+          "skill-value": "9D"
+        },
+        {
+          "skill-name": "Survival",
+          "skill-value": "7D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "2D",
+      "skills": []
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Command",
+          "skill-value": "9D"
+        },
+        {
+          "skill-name": "Hide",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Investigation",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Search",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "2D",
+      "skills": [
+        {
+          "skill-name": "Stamina",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "2D",
+      "skills": [
+        {
+          "skill-name": "Armor Repair",
+          "skill-value": "7D"
+        },
+        {
+          "skill-name": "Security",
+          "skill-value": "8D"
+        }
+      ]
+    }
+  ],
+  "equipment": [
+  	"Armor(+2D vs. physical, +1D vs. energy)",
+	"Schwartz Ring", 
+	"Spaceballs Action Figures",
+	"Desert Armor(+1D+1 vs. physical, +1D vs. energy)"
+  ]
+}

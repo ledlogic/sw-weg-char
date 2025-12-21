@@ -60,9 +60,10 @@ div#sw-character-age {
 }
 div#sw-character-description {
 	left: 224px;
-	top: 222px;
+	top: 220px;
 	width: 520px;
 	font-size: 12px;
+	line-height: 26px;
 }
 
 /* attributes */
@@ -165,4 +166,24 @@ div.sw-skill-value {
 	border-bottom: 1px solid black;
 	top: 0px;
 	width: 50px;
+}
+
+/* equipment */
+
+div.sw-equipment-cover {
+	position: absolute;
+	background-color: #fff;
+	/* border: 1px solid red; */
+	width: 296px;
+}
+
+div#sw-equipment-cover {
+	left: 454px;
+	top: 330px;
+	height: 116px;
+}
+
+div.sw-equipment {
+	font-size: 14px;
+	margin-top: 2px;
 }

@@ -1,0 +1,93 @@
+{
+  "character-name": "Colonel Sanders",
+  "character-type": "Captain of Spaceball One",
+  "character-height": "",
+  "character-weight": "",
+  "character-sex": "",
+  "character-age": "",
+  "character-description": "",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Blaster",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Dodge",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "2D+2",
+      "skills": [
+        {
+          "skill-name": "Bureaucracy: Spaceballs",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Intimidation",
+          "skill-value": "5D+2"
+        },
+        {
+          "skill-name": "Enforcement",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Survival",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "3D",
+      "skills": []
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "2D+1",
+      "skills": [
+        {
+          "skill-name": "Command",
+          "skill-value": "5D+1"
+        },
+        {
+          "skill-name": "Investigation",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Stamina",
+          "skill-value": "6D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "3D",
+      "skills": [
+        {
+          "skill-name": "Security",
+          "skill-value": "6D"
+        }
+      ]
+    }
+  ],
+  "equipment": [
+  	"Uniform"
+  ]
+}

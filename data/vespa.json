@@ -1,0 +1,95 @@
+{
+  "character-name": "Princess Vespa",
+  "character-type": "Druish Princess",
+  "character-height": "",
+  "character-weight": "",
+  "character-sex": "",
+  "character-age": "",
+  "character-description": "",
+  "attributes": [
+    {
+      "attribute-name": "DEX",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Blaster",
+          "skill-value": "8D"
+        },
+        {
+          "skill-name": "Dodge",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Running",
+          "skill-value": "5D"
+        }
+      ]
+    },
+    {
+      "attribute-name": "KNO",
+      "attribute-value": "2D+2",
+      "skills": [
+        {
+          "skill-name": "Cultures",
+          "skill-value": "5D"
+        },
+        {
+          "skill-name": "Druidia",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Value",
+          "skill-value": "4D"
+        },
+        {
+          "skill-name": "Willpower",
+          "skill-value": "5D+2"
+        }
+      ]
+    },
+    {
+      "attribute-name": "MEC",
+      "attribute-value": "2D+1",
+      "skills": [
+        {
+          "skill-name": "Astrogation",
+          "skill-value": "3D"
+        },
+        {
+          "skill-name": "Space Transports",
+          "skill-value": "5D+1"
+        }
+      ]
+    },
+    {
+      "attribute-name": "PER",
+      "attribute-value": "4D",
+      "skills": [
+        {
+          "skill-name": "Command",
+          "skill-value": "6D"
+        },
+        {
+          "skill-name": "Persuasion",
+          "skill-value": "6D+1"
+        }
+      ]
+    },
+    {
+      "attribute-name": "STR",
+      "attribute-value": "2D+2",
+      "skills": []
+    },
+    {
+      "attribute-name": "TEC",
+      "attribute-value": "2D+1",
+      "skills": []
+    }
+  ],
+  "equipment": [
+  	"Fancy Clothes",
+  	"Dot Matrix",
+  	"Matched Luggage",
+  	"Mercedes 2001 STL Limited Edition"
+  ]
+}
